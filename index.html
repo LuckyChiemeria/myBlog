@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>my blog</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- fontawesome icon directory -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<!-- `fontawesome icon directory -->
+</head>
+<body>
+<!-- home section -->
+<section class="home">
+<!-- nav container -->
+	<nav>
+		<!-- logo -->
+		<p class="logo">DigiTips</p>
+		<!-- `logo -->
+		<!-- nav links -->
+		<div class="navLink">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Tips</a></li>
+				<li><a href="#">Trends</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<!-- nav links -->
+		<!-- munu bar -->
+		<div class="menu"></div>
+		<div class="close_menu"></div>
+		<!-- `munu bar -->
+	</nav>
+<!-- nav container -->
+
+<!-- home content --> 
+	<div class="content">
+		<div class="max_width">
+			<!-- blog post container -->
+			<div class="col_container">
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_1"></div>
+					<div class="blog_content">
+						<h1>How to Make Money From Social Media Marketing passively Without Leaving your Home.</h1>
+					</div>
+					</a>
+				</div>
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_2"></div>
+					<div class="blog_content">
+						<h1>How To Make Money Typing Online, Stand to Earn Over $200 in a Month</h1>
+					</div>
+					</a>
+				</div>
+			</div>
+			<!-- `blog post container -->
+			<!-- blog post container -->
+			<div class="col_container">
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_3"></div>
+					<div class="blog_content">
+						<h1>How to Drive Traffic to Anything at Anytime, Problem with Reaching People? Read this Post</h1>
+					</div>
+					</a>
+				</div>
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_4"></div>
+					<div class="blog_content">
+						<h1>Step by Step Guide to Start Freelancing Business 2022, Freelancing is the Way Know Why</h1>
+					</div>
+					</a>
+				</div>
+			</div>
+			<!-- `blog post container -->
+			<!-- blog post container -->
+			<div class="col_container">
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_5"></div>
+					<div class="blog_content">
+						<h1>The Importance of Website in Every Business, Why you Should have One and How to get one for your Business.</h1>
+					</div>
+					</a>
+				</div>
+				<div class="col">
+					<a href="article.html">
+					<div class="blog_image banner_6"></div>
+					<div class="blog_content">
+						<h1>Top Five Demanded Skills you can Learn and Earn big online working From Home.</h1>
+					</div>
+					</a>
+				</div>
+			</div>
+			<!-- `blog post container -->
+		</div>
+	</div>
+<!-- `home content -->
+<!-- load more buttons -->
+	<div class="load_more_container">
+		<div class="load_more active">1</div>
+		<div class="load_more">2</div>
+		<div class="load_more">3</div>
+		<div class="load_more">4</div>
+	</div>
+<!-- `load more buttons -->
+</section>
+<!-- `home section -->
+<!-- footer section -->
+<section class="footer">
+	<div class="social_links">
+		<p>follow us on:</p>
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>copyright &copy; | 2019 - 2022 DigiTips. Created and Maintained By <a href="#">luckyCodes</a> All Rights Reserved.</p>
+	</div>
+</section>
+<!-- `footer section -->
+
+<!-- javaScript -->
+<script>
+
+let menuButton = document.querySelector('.menu');
+let closeMenuButton = document.querySelector('.close_menu');
+let navLinks = document.querySelector('.navLink');
+
+menuButton.onclick = function() {
+	navLinks.style.display = 'block';
+	menuButton.style.display = 'none';
+	closeMenuButton.style.display = 'block';
+}
+
+closeMenuButton.onclick = function() {
+	navLinks.style.display = 'none';
+	menuButton.style.display = 'block';
+	closeMenuButton.style.display = 'none';
+}
+
+</script>
+</body>
+</html>

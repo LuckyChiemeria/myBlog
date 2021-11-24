@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>my blog</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!-- fontawesome icon directory -->
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<!-- `fontawesome icon directory -->
+</head>
+<body>
+<!-- home section -->
+<section class="home">
+<!-- nav container -->
+	<nav>
+		<!-- logo -->
+		<p class="logo">DigiTips</p>
+		<!-- `logo -->
+		<!-- nav links -->
+		<div class="navLink">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Tips</a></li>
+				<li><a href="#">Trends</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<!-- nav links -->
+		<!-- munu bar -->
+		<div class="menu"></div>
+		<div class="close_menu"></div>
+		<!-- `munu bar -->
+	</nav>
+<!-- nav container -->
+</section>
+
+<div class="article">
+	<h1>Uploading article.........</h1>
+</div>
+
+<!-- footer section -->
+<section class="footer">
+	<div class="social_links">
+		<p>follow us on:</p>
+		<div class="icons">
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linkedin-in"></i>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>copyright &copy; | 2019 - 2022 DigiTips. All Rights Reserved.</p>
+	</div>
+</section>
+<!-- `footer section -->
+
+<!-- javaScript -->
+<script>
+
+let menuButton = document.querySelector('.menu');
+let closeMenuButton = document.querySelector('.close_menu');
+let navLinks = document.querySelector('.navLink');
+
+menuButton.onclick = function() {
+	navLinks.style.display = 'block';
+	menuButton.style.display = 'none';
+	closeMenuButton.style.display = 'block';
+}
+
+closeMenuButton.onclick = function() {
+	navLinks.style.display = 'none';
+	menuButton.style.display = 'block';
+	closeMenuButton.style.display = 'none';
+}
+
+</script>
+</body>
+</html>
